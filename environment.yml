@@ -1,0 +1,30 @@
+name: llm_mcp
+channels:
+  - conda-forge
+  - pytorch
+  - nvidia
+  - defaults
+dependencies:
+  - python=3.12
+  - pip
+  - pandas
+  - numpy
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - joblib
+  - jupyter
+  - pytorch
+  - pytorch-cuda=12.1
+  - pip:
+    - python-dotenv
+    - langchain
+    - langchain-community
+    - langchain-core
+    - mcp
+    - pydantic
+    - openai
+    - httpx
+    - sentence-transformers
+    - transformers
+    - asyncio-extras
